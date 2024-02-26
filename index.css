@@ -1,0 +1,19 @@
+h1 {
+    font-size: 30px;
+    color: blue;
+}
+
+/* Screen untuk menyesuaikan */
+@media(max-width: 600px) { 
+    h1 {
+    font-size: 6px;
+    color: yellow; 
+    }
+    
+}
+
+@media(orientation : landscape) and (max-width : 800px) {
+    h1 {
+        color: red;
+    }
+}
